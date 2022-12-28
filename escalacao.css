@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 2px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#players-inf{
+    display: flex;
+    font-size: 20px;
+}
+#players-inf>label{
+    cursor: pointer;
+    margin-right: 10px;
+}
+#players-inf>input{
+    margin-right: 10px;
+    width: 20%;
+    height: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    outline: none;
+}
+#players-inf>select{
+    width: 20%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+
+}
+button{
+    background-color: rgb(33, 163, 33);
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    color: rgba(255, 255, 255, 0.795);
+}
+#players-in-game{
+    margin: 10px;
+}
+#players{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.274);
+}
+
+ul,p, li{
+    font-size: 20px;
+    margin: 10px;
+}
